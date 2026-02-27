@@ -1,0 +1,80 @@
+{
+
+imagine dev
+pythagora ai 
+rork com
+base44 com
+tempo new 
+kombai com 
+vibes diy 
+anything com
+vibecodeapp com 
+imagica ai
+design arena (anything)
+opencode
+https://huggingface.co/spaces/enzostvs/deepsite
+
+}
+
+Trae :- something like cursor but the free version.
+Antigravity	https://antigravity.google/	Google’s completely free agentic IDE for coding tasks
+Cursor	https://cursor.com/	AI editor for multi-file coding
+Qoder	https://qoder.com/	Completely free IDE based tool by Alibaba
+Trae	https://www.trae.ai/	A free editor by Bytedance with solo mode
+Void	https://voideditor.com/	The open source and private AI code editor
+Windsurf	https://windsurf.com/	Best for deep context awareness and flow.
+		
+Lovable	https://lovable.dev/	Full-stack web apps with auto UI, logic, and hosting
+Bolt.new	https://bolt.new/	Production ready apps with live preview
+Replit	https://replit.com/	Browser-based IDE to code, run, and deploy apps
+V0	https://v0.app/	Production-ready UI from prompts using React + Tailwind.
+Figma Make	https://www.figma.com/make/	Figma designs into working front-end code
+Emergent	https://emergent.sh/	Full-stack apps with backend, auth, and DB.
+		
+Bolt.diy	https://bolt.diy/	Browser-based AI coding for Node apps
+Chef by Convex	https://chef.convex.dev/	Open-source AI full-stack app builder
+Dyad	https://www.dyad.sh/	Local AI app builder with Postgres
+Continue.dev	https://www.continue.dev/	VS Code AI assistant with custom LLMs
+CodeGeeX	https://codegeex.cn/	Multilingual code generation and translation
+Kilo Code	https://kilo.ai/	VS Code AI agent with modes
+		
+V0 by Vercel	https://v0.app/	React/Next.js apps from text prompts
+Base44	https://base44.com/	Full-stack web apps from prompts
+Blink.new	https://blink.new/	Full web apps, one-click deploy
+GitHub Copilot	https://github.com/copilot	Free agentic coding in VS Code
+Atoms	https://atoms.dev/	Multi-agent-powered vibe coding
+Lovable	https://lovable.dev/	Full-stack web apps from natural language
+		
+Rork	https://rork.com/	Native iOS/Android apps from prompts
+AppGen	https://appgen.com/	Monetizable App Store-ready apps.
+Tile.dev	https://tile.dev/	Production-ready mobile apps with agent support
+FlutterFlow	https://www.flutterflow.io/	Flutter apps generated with AI
+A0	https://a0.dev/	Cross-platform apps with AI agents
+Firebase Studio	https://firebase.studio/	Google’s AI IDE for Next.js apps
+		
+Kromio	https://www.kromio.ai/	Chrome extension builder from simple prompts.
+Manus	https://manus.im/	Create chrome extension logic from text prompts
+Emergent	https://emergent.sh/	Multi-agent Chrome extension generation
+Windsurf	https://windsurf.com/	AI IDE that can make Chrome extension workflows
+MindStudio	https://www.mindstudio.ai/	Wrap AI agents into browser extensions
+		
+Google Stitch	https://stitch.withgoogle.com/	Design, image or text prompts to UI code
+Memex	https://memex.tech/	Convert screenshots to functional React components
+Anima	https://www.animaapp.com/	Figma to production code
+Codia AI	https://codia.ai/	Screenshots to web/mobile code
+CodeParrot	https://codeparrot.ai/	Screenshots to frontend code with VSCode support
+Figma Make	https://www.figma.com/make/	Figma to app for rapid prototyping
+
+
+{
+
+                        	BEST FOR BACKENDD
+		
+Bolt.new	https://bolt.new/	Instant full-stack apps with backend logic and APIs
+Chef by Convex	https://chef.convex.dev/	AI agent for building real-time backends with DB + auth
+Mocha	https://getmocha.com/	AI backend generator for APIs, logic, and data models
+Kiro	https://kiro.dev/	Backend code generation & testing with agents
+Pythagora	https://www.pythagora.ai/	AI developer that builds full-stack apps from specs
+Workik	https://workik.com/	AI backend code generator for APIs and integrations
+
+}
