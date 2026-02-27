@@ -30,4 +30,5 @@ Map the scrollYProgress to various properties:
 Frame Index: Interp from 0 to FRAME_COUNT - 1.
 Opacity/Scale: Use useTransform to fade in/out text overlays at specific milestones.
 Use sticky positioning for the canvas so it stays fixed in the viewport.
-Final Polish: Ensure all interactive elements have hover effects that react to the identified theme and include micro-animations like particle bursts or shifting gradients.  } explain this prompt 
+Final Polish: Ensure all interactive elements have hover effects that react to the identified theme and include micro-animations like particle bursts or shifting gradients.  } 
+ 
