@@ -1,0 +1,33 @@
+{  Build the Cinematic Scroll Engine 
+CRITICAL FIRST STEP: Asset Discovery
+
+Research the public folder: Use your file system tools to search for image sequences (e.g., folders full of .jpg or .png files with sequential naming like frame-001).
+Analyze Frame Details: Determine the FRAME_COUNT, the specific SUBFOLDER_PATH, and the NAMING_CONVENTION (e.g., zero-padding length).
+Identify Theme: Look at globals.css or existing components to determine a suitable ACCENT_COLOR and theme (Dark/Light).
+Objective: Once assets are found, implement a high-performance, canvas-based scroll animation component.
+
+1. Configuration & Performance:
+
+Dynamic frame sequence: Create a configuration object based on your findings from the discovery step.
+Progressive Loader: Implement a 3-stage loading logic to ensure the page is interactive within seconds:
+Stage 1: Load the first frame immediately.
+Stage 2: Load every 3rd or 4th frame (low-fps interaction ready).
+Stage 3: Load the full sequence in chunks with a minor delay between chunks to keep the main thread free.
+Memory Management: Use HTMLCanvasElement for rendering instead of thousands of <img> tags.
+2. Premium Motion Physics:
+
+Global Smoothness: Integrate a smooth-scrollbar (like Lenis) with a lerp of 0.05 to 0.1 for a fluid global feel.
+Local Interpolation: Use Framer Motion’s useSpring (stiffness: 80-120, damping: 25-35) to smooth out the frame switching logic. The scroll should feel "heavy" and premium, not jittery.
+3. Environmental "Glue" (Aesthetics):
+
+Filmic Overlays: Implement a persistent SVG feTurbulence noise filter at very low opacity (0.02-0.05) to add texture.
+Dynamic Lighting: Add a radial vignette and ambient background glows (pulsing slowly) that follow the scroll or mouse position.
+Cinematic Reveal: Use a "Cinematic Loader" UI that shows a percentage and opens like a camera shutter once the first critical frames are ready.
+4. Scrollytelling Architecture:
+
+Create a h-[800vh] (or higher) container to provide enough "room" for the video sequence to breathe.
+Map the scrollYProgress to various properties:
+Frame Index: Interp from 0 to FRAME_COUNT - 1.
+Opacity/Scale: Use useTransform to fade in/out text overlays at specific milestones.
+Use sticky positioning for the canvas so it stays fixed in the viewport.
+Final Polish: Ensure all interactive elements have hover effects that react to the identified theme and include micro-animations like particle bursts or shifting gradients.  } explain this prompt 

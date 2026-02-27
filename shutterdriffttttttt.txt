@@ -1,0 +1,284 @@
+Objective
+
+Build a production-ready, high-performance cinematic scroll engine using a canvas-based image sequence renderer with progressive loading, physics-driven interpolation, and cinematic environmental overlays.
+
+The system must be:
+
+Memory-efficient
+
+SSR-safe (Next.js compatible)
+
+Mobile-optimized
+
+Theme-aware
+
+Accessible
+
+Performance-budget compliant
+
+Modular and scalable
+
+1️⃣ CRITICAL FIRST STEP — Asset Discovery
+
+Before writing animation logic:
+
+Scan the /public directory for image sequences:
+
+Detect sequential naming patterns (e.g., frame-001.jpg)
+
+Infer zero-padding length
+
+Detect extension (.jpg, .png, .webp)
+
+Count total frames
+
+Validate no missing frames
+
+Generate a validated configuration object:
+
+type SequenceConfig = {
+  frameCount: number
+  basePath: string
+  filePrefix: string
+  extension: string
+  zeroPadding: number
+  aspectRatio: number
+}
+
+Abort with clear console error if:
+
+Frame count < 10
+
+Frame gaps detected
+
+Images fail to decode
+
+2️⃣ Performance Budget & Constraints
+
+Must meet:
+
+Time to first visible frame: < 1 second
+
+TTI: < 2.5 seconds
+
+Main thread blocking per batch: < 50ms
+
+FPS target: 60fps desktop, 30fps mobile
+
+Memory cap: < 250MB decoded frames
+
+No layout thrashing. No excessive re-renders.
+
+3️⃣ Rendering Architecture
+
+Use:
+
+A single <canvas> element
+
+DevicePixelRatio-aware scaling
+
+ResizeObserver for responsive redraw
+
+OffscreenCanvas support (if available)
+
+No <img> flooding
+
+Prevent redundant draw calls
+
+Frame selection must:
+
+Map scroll progress → float frame index
+
+Use useSpring (stiffness: 100, damping: 30)
+
+Clamp bounds
+
+Avoid unnecessary redraws
+
+4️⃣ Progressive 3-Stage Loader (Mandatory)
+Stage 1 — Critical Frame
+
+Load only first frame
+
+Render immediately
+
+Unlock UI
+
+Stage 2 — Sparse Frames
+
+Load every 4th frame
+
+Enable early scroll interaction
+
+Stage 3 — Full Sequence
+
+Load remaining frames in chunks (8–12 frames)
+
+Use requestIdleCallback or micro-delays
+
+Yield to main thread between batches
+
+Pre-decode images before draw
+
+Loader must show real percentage progress.
+
+5️⃣ Scroll Engine & Motion Physics
+Global Smooth Scroll
+
+Use Lenis:
+
+lerp: 0.07
+smoothWheel: true
+
+Must respect:
+
+prefers-reduced-motion
+
+Native scroll fallback
+
+Local Frame Interpolation
+
+Use Framer Motion:
+
+useSpring
+
+stiffness: 80–120
+
+damping: 25–35
+
+Scroll should feel heavy, cinematic, and physically responsive.
+
+6️⃣ Scrollytelling Layout Architecture
+
+Structure:
+
+Container height: 800vh (or configurable)
+
+Canvas: position sticky; top: 0
+
+Overlay layers: absolute positioned
+
+Map scrollYProgress to:
+
+Frame index (0 → FRAME_COUNT - 1)
+
+Text opacity milestones
+
+Scale transforms
+
+Glow intensity
+
+No magic numbers — define milestones in config.
+
+7️⃣ Cinematic Environmental Effects
+Film Grain Overlay
+
+SVG feTurbulence
+
+Opacity: 0.02–0.04
+
+pointer-events: none
+
+GPU-friendly
+
+Radial Vignette
+
+Responsive radial gradient
+
+Subtle edge darkening
+
+Ambient Glows
+
+Slow sine-based pulsing (10–20s cycle)
+
+Optional mouse-follow (throttled)
+
+No repaint storms
+
+8️⃣ Cinematic Loader
+
+Requirements:
+
+Displays real loading %
+
+Opens like camera shutter
+
+Animation duration < 900ms
+
+Unmounts cleanly
+
+Non-blocking
+
+9️⃣ Theming System
+
+Auto-detect theme from global styles.
+
+type ThemeConfig = {
+  mode: "dark" | "light"
+  accentColor: string
+  glowColor: string
+  textColor: string
+}
+
+All overlays, glows, hover states must adapt dynamically.
+
+No hardcoded colors.
+
+🔟 Accessibility & Fallback
+
+Must support:
+
+prefers-reduced-motion
+
+Keyboard scroll
+
+Screen readers
+
+No-JS fallback (static hero image)
+
+Canvas unsupported fallback
+
+1️⃣1️⃣ Mobile Optimization
+
+On smaller devices:
+
+Reduce resolution if needed
+
+Cap frame count if memory constrained
+
+Disable heavy environmental effects
+
+Maintain minimum 30fps
+
+1️⃣2️⃣ Architecture & File Structure
+
+Separate concerns:
+
+/engine
+  sequenceLoader.ts
+  canvasRenderer.ts
+  scrollController.ts
+  themeController.ts
+
+/components
+  CinematicScrollEngine.tsx
+  CinematicLoader.tsx
+  EnvironmentalEffects.tsx
+
+No monolithic component.
+
+1️⃣3️⃣ Acceptance Criteria
+
+System is complete only if:
+
+Lighthouse performance > 90
+
+CLS < 0.05
+
+First frame visible < 1s
+
+Smooth physics-based scroll
+
+Memory stable during full sequence
+
+Works in Chrome, Safari, Firefox
