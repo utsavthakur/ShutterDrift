@@ -1,0 +1,122 @@
+• 1. Cursor – AI-first code editor
+• 2. Phind – AI search for developers
+• 3. Uizard – Sketch to UI design tool
+• 4. Leonardo AI – Advanced AI image generation
+• 5. Dust – Internal AI workflow builder
+• 6. Runway – AI video editing
+• 7. ElevenLabs – Realistic AI voice generator
+• 8. Midjourney – AI art generation
+• 9. Claude – AI assistant for long documents
+• 10. Gemini – Google AI assistant
+• 11. Replit Ghostwriter – AI coding inside browser
+• 12. Codeium – Free AI coding assistant
+• 13. Tabnine – AI autocomplete for developers
+• 14. Synthesia – AI avatar video creator
+• 15. HeyGen – AI talking avatar videos
+• 16. Pika Labs – AI video generation
+• 17. Descript – AI podcast & video editing
+• 18. Notion AI – AI inside productivity docs
+• 19. Tome – AI presentation generator
+• 20. Gamma – AI slides creator
+• 21. Copy.ai – AI copywriting
+• 22. Jasper – AI marketing assistant
+• 23. Writesonic – AI content generator
+• 24. Surfer AI – SEO AI writing
+• 25. Framer AI – AI website builder
+• 26. Durable – AI business website builder
+• 27. Webflow AI – Smart website design
+• 28. Wix AI – AI site creation
+• 29. Bubble AI – No-code app building
+• 30. Glide AI – Spreadsheet to app builder
+• 31. Retool AI – Internal tool automation
+• 32. Zapier AI – AI automation workflows
+• 33. Make.com AI – Advanced automations
+• 34. Luma AI – 3D capture & generation
+• 35. Kaedim – AI 3D model generation
+• 36. Meshy – AI 3D assets
+• 37. Playground AI – Creative image tool
+• 38. Ideogram – Text-to-image generator
+• 39. Adobe Firefly – AI design tool
+• 40. Canva AI – AI inside Canva
+• 41. Remove.bg – AI background remover
+• 42. Cleanup.pictures – AI object removal
+• 43. Looka – AI logo generator
+• 44. Brandmark – AI brand identity tool
+• 45. Soundraw – AI music generator
+• 46. Suno – AI song creation
+
+• 47. AIVA – AI music composition
+• 48. Murf AI – AI voiceovers
+• 49. Resemble AI – Custom AI voices
+• 50. Krisp – AI noise cancellation
+• 51. Otter.ai – AI meeting notes
+• 52. Fireflies.ai – Meeting transcription
+• 53. Superhuman AI – Email productivity
+• 54. Grammarly AI – Writing assistant
+• 55. DeepL – AI translation
+• 56. ChatPDF – Talk to PDFs
+• 57. Humata – AI for research papers
+• 58. Perplexity – AI answer engine
+• 59. Tavily – AI search API
+• 60. LangChain – AI app framework
+• 61. Pinecone – Vector database
+• 62. Weaviate – AI database
+• 63. Supabase AI – AI backend tools
+• 64. Vercel AI SDK – AI app deployment
+• 65. Railway – Backend hosting
+• 66. Replicate – Run AI models via API
+• 67. Hugging Face – Open AI model hub
+• 68. Stability AI – Image generation models
+• 69. OpenRouter – Multi-model AI API
+• 70. Character AI – AI characters
+• 71. Poe – Multi AI chat platform
+• 72. Flowise – Visual LLM builder
+• 73. n8n AI – Workflow automation
+• 74. AgentGPT – Autonomous AI agents
+• 75. AutoGPT – AI task automation
+• 76. Rewind AI – Personal knowledge AI
+• 77. Mem AI – AI-powered notes
+• 78. Reflect AI – Smart note-taking
+• 79. Motion – AI calendar planner
+• 80. Taskade – AI task manager
+• 81. ClickUp AI – AI productivity tool
+• 82. Airtable AI – Smart databases
+• 83. Rows AI – Spreadsheet AI
+• 84. Glean – Enterprise AI search
+• 85. Scale AI – Data labeling
+• 86. RunPod – AI GPU hosting
+• 87. Together AI – Model hosting
+• 88. Modal – AI infrastructure
+• 89. Baseten – AI model deployment
+• 90. Deepgram – Speech-to-text API
+• 91. AssemblyAI – AI transcription API
+• 92. Clarifai – Computer vision API
+• 93. Roboflow – Vision AI training
+• 94. Edge Impulse – AI for edge devices
+• 95. Synthesys – AI voice & video
+• 96. Predis AI – Social media AI
+• 97. Ocoya – AI social scheduling
+• 98. Flick AI – Instagram AI tool
+• 99. AdCreative.ai – AI ad generation
+• 100. Pencil AI – AI ad creative tool
+• 101. Krea AI – Real-time AI images
+• 102. Scenario AI – Game asset AI
+• 103. Recraft AI – Vector image AI
+
+• 104. Cohesive AI – Content writing
+• 105. Peppertype AI – Marketing content
+• 106. Anyword – AI ad copy
+• 107. Durable AI – AI CRM builder
+• 108. Beautiful.ai – AI presentations
+• 109. SlidesAI – AI Google slides
+• 110. Elai.io – AI video presenter
+• 111. InVideo AI – AI video creation
+• 112. Kaiber – AI video art
+• 113. Quickchat AI – AI chatbot builder
+• 114. Botpress – AI chatbot framework
+• 115. Voiceflow – Conversational AI builder
+• 116. Builder.io AI – Visual AI web building
+• 117. Softr AI – No-code web apps
+• 118. Typedream AI – AI landing pages
+• 119. Mintlify AI – AI documentation
+• 120. Pieces AI – AI code memory tool
