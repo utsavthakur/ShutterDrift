@@ -1,3 +1,1 @@
-﻿# ShutterDrift
-nothing much-just random references 
-accross the internet referencing the developer...
+﻿# Shutter-Drifffftttt 
